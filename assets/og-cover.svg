@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#ecfdf5"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g transform="translate(80,120)">
+    <rect x="0" y="0" width="1040" height="390" rx="24" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="40" y="110" font-family="Inter,Segoe UI,Arial" font-size="64" font-weight="700" fill="#1f7a4c">Majalengka Bersih</text>
+    <text x="40" y="170" font-family="Inter,Segoe UI,Arial" font-size="34" fill="#0f172a">Portal Pengelolaan Sampah Kabupaten</text>
+    <g transform="translate(40,220)">
+      <circle cx="0" cy="0" r="18" fill="#1f7a4c"/>
+      <rect x="28" y="-10" width="300" height="20" rx="10" fill="#c7f9e3"/>
+    </g>
+    <g transform="translate(40,280)">
+      <circle cx="0" cy="0" r="18" fill="#1f7a4c"/>
+      <rect x="28" y="-10" width="360" height="20" rx="10" fill="#def7ec"/>
+    </g>
+  </g>
+</svg>
+
