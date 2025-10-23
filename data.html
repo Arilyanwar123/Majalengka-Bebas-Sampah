@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data • Majalengka Bersih</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script defer src="assets/data-page.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/">Majalengka Bersih</a>
+      <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <nav class="site-nav" aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang</a>
+        <a class="active" href="data.html">Data</a>
+        <a href="program.html">Program</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding:32px 0 48px">
+    <div class="row" style="justify-content:space-between">
+      <h1>Data Pengelolaan Sampah</h1>
+      <span class="pill">Pembaharuan: 2025</span>
+    </div>
+    <p>Gambaran singkat perkembangan pengurangan dan pengelolaan sampah.</p>
+    <div class="card" style="padding:16px">
+      <canvas id="chart-1" height="160"></canvas>
+    </div>
+    <p style="color:#475569">Sumber data: Dinas Lingkungan Hidup Kabupaten (contoh).</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Majalengka Bersih</p>
+    </div>
+  </footer>
+</body>
+</html>
+

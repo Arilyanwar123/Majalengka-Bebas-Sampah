@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sampah Kabupaten Majalengka</title>
+  <meta name="description" content="Informasi, data, dan program pengelolaan sampah di Kabupaten Majalengka.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/app.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#1f7a4c">
+  <meta property="og:title" content="Sampah Kabupaten Majalengka">
+  <meta property="og:description" content="Portal informasi pengelolaan sampah Majalengka: data, program, dan edukasi.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-cover.svg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/">Majalengka Bersih</a>
+      <div class="row">
+        <button class="theme-toggle" title="Tema" aria-label="Ganti tema">🌓</button>
+        <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      </div>
+      <nav class="site-nav" aria-label="Navigasi utama">
+        <a href="index.html" class="active">Beranda</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="data.html">Data</a>
+        <a href="program.html">Program</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="pill">Majalengka • Kolaborasi</span>
+        <h1>Majalengka Bebas Sampah</h1>
+        <p>Kolaborasi pemerintah, komunitas, dan warga untuk pengelolaan sampah berkelanjutan.</p>
+        <div class="cta-group">
+          <a class="btn primary" href="program.html">Lihat Program</a>
+          <a class="btn" href="data.html">Lihat Data</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container grid-3">
+        <div class="stat">
+          <div class="stat-value" id="stat-ton">0 ton</div>
+          <div class="stat-label">Sampah dikelola per hari</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-tps3r">0</div>
+          <div class="stat-label">TPS3R aktif</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-bank">0</div>
+          <div class="stat-label">Bank sampah</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="container">
+        <h2>Fokus Utama</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Pengurangan di Sumber</h3>
+            <p>Gerakan pilah sampah dari rumah dan pengurangan plastik sekali pakai.</p>
+          </article>
+          <article class="card">
+            <h3>Penguatan TPS3R</h3>
+            <p>Modernisasi sarana prasarana dan pelatihan operasional.</p>
+          </article>
+          <article class="card">
+            <h3>Ekonomi Sirkular</h3>
+            <p>Kolaborasi UMKM daur ulang dan bank sampah unit.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="container">
+        <h2>Pertanyaan Umum</h2>
+        <details>
+          <summary>Bagaimana memulai pemilahan sampah di rumah?</summary>
+          <p>Siapkan tiga wadah: organik, anorganik, dan residu. Cuci kemasan sebelum dibuang.</p>
+        </details>
+        <details>
+          <summary>Di mana lokasi bank sampah terdekat?</summary>
+          <p>Lihat peta dan daftar pada halaman Program atau hubungi kelurahan/desa.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Majalengka Bersih • Dibuat untuk edukasi dan kolaborasi.</p>
+    </div>
+  </footer>
+</body>
+</html>
+

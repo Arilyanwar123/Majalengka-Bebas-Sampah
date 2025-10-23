@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontak • Majalengka Bersih</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/">Majalengka Bersih</a>
+      <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <nav class="site-nav" aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="data.html">Data</a>
+        <a href="program.html">Program</a>
+        <a class="active" href="kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding:32px 0 48px">
+    <h1>Kontak</h1>
+    <p>Silakan hubungi kami untuk kolaborasi atau pertanyaan terkait pengelolaan sampah.</p>
+    <form class="card" style="display:grid;gap:12px;max-width:520px" onsubmit="event.preventDefault();this.reset();alert('Terima kasih, pesan Anda telah dikirim (demo).');">
+      <label>Nama<input required type="text" placeholder="Nama lengkap" style="width:100%"></label>
+      <label>Email<input required type="email" placeholder="nama@email.com" style="width:100%"></label>
+      <label>Pesan<textarea required rows="5" placeholder="Tulis pesan Anda" style="width:100%"></textarea></label>
+      <div class="row">
+        <button class="btn" type="reset">Bersihkan</button>
+        <button class="btn primary" type="submit">Kirim</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Majalengka Bersih</p>
+    </div>
+  </footer>
+</body>
+</html>
+
